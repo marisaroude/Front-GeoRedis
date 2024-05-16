@@ -1,0 +1,27 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerData,
+.containerButton,
+.containerInputs {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+}
+.containerInputs input{
+    padding: 1em;
+    width: 35%;
+    margin: 10px;
+}
+
+.containerButton button{
+    padding: 1em;
+    width: 40%;
+    margin: 10px;
+}
